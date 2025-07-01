@@ -1,0 +1,10 @@
+
+<launch>
+  <!-- Launch the sound_play TTS engine -->
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py" output="screen" />
+
+  <!-- Launch the fall detection node with English voice alerts -->
+  <node name="fall_detection_node" pkg="fall_monitor" type="fall_detection_node_with_voice_en.py" output="screen">
+    <param name="use_sim_time" value="false"/>
+  </node>
+</launch>

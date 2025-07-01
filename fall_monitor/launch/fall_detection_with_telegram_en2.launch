@@ -1,0 +1,7 @@
+<launch>
+  <node name="fall_detection_node_with_telegram2" pkg="fall_monitor" type="fall_detection_node_with_telegram_en_optimize.py" output="screen">
+    <param name="video_device" value="/dev/video0"/>
+  </node>
+</launch>
+
+
