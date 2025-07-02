@@ -1,0 +1,18 @@
+## file path:
+## ~/catkin_ws/src/fall_monitor/scripts
+## 1. roscore e
+## 2. roslaunch astra_camera astra.launch  # open robot camera
+## 3. roslaunch jupiterobot2_vision_mediapipe mediapipe_pose.launch image:=/camera/color/image_raw  # structure detection point
+## 4. rosrun sound_play soundplay_node.py  # sound play
+## 5. roslaunch fall_monitor fall_detection_with_telegram_en.launch  # fall_down detection
+## 5. roslaunch fall_monitor fall_detection_with_telegram_en2.launch
+## 
+
+## ~/catkin_ws/src/jupiterobot2/jupiterobot2_vision/jupiterobot2_vision_mediapipe # structure detection point
+
+
+
+
+
+
+
